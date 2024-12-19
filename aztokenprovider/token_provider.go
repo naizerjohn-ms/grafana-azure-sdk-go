@@ -112,6 +112,7 @@ func NewAzureAccessTokenProvider(settings *azsettings.AzureSettings, credentials
 	}
 }
 
+
 type serviceTokenProvider struct {
 	tokenCache     ConcurrentTokenCache
 	tokenRetriever TokenRetriever
